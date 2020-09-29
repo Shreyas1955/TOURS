@@ -1,0 +1,292 @@
+body{
+    margin: auto;
+    max-width: 1000px;
+    height: auto;
+    background-color: white;
+}
+.container{
+background-color: #ecf0f1;
+}
+
+.banner img{
+    width: 1000px;
+    height: 500px;
+    
+
+}
+.header img{
+    height: 145px;
+    float: left;
+    padding-right: 160px
+    
+}
+.header {
+background-color: skyblue;
+    height: 145px;
+    
+}
+.header > h1{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 50px;
+
+    
+    color: white;
+}
+.header>p{
+    text-align: right;
+    color: gray
+}
+.header>p1{
+    margin-left: 130px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.nav{
+    background-color:#00868B;
+    }
+.nav ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0px;
+}
+.nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.nav ul li a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    color: black;
+    background-color: orange;
+}
+.home h1 {
+    color: black;
+    padding: 25px;
+    margin-left: 1px;
+    margin: 0px;
+    
+    padding-bottom: 0px;
+    
+    
+}
+.home{
+    background-color: royalblue;
+    margin: 0px;
+}
+.home p{
+
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-left:10px;
+    color: white;
+    margin:0px ;
+}
+.footer{
+    background-color: black;
+    width: 950px;
+    padding: 25px;
+    color: white;
+    height: 300px;
+}
+.footer h3{
+    
+    color: white;
+    font-size: 40px;
+    
+}
+.box {
+    width: 237.5px;
+    height: auto;
+    float: left;
+    
+}
+.box ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    
+}
+.box ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: small;
+}
+
+#address{
+    font-family: sans-serif;
+    
+}
+#address p{
+    color: white;
+}
+#address p1{
+    color: white;
+}
+.copy{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0px;
+    background-color: red;
+}
+#address a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+
+.about img{
+    max-width: 800px;
+    height: auto;
+    margin-left: 100px;
+    margin-top:10px;
+    box-shadow: 3px 3px 3px 3px;
+    
+    
+    
+}
+.about {
+    background-color: aquamarine;
+}
+.about h1{
+    margin: 0px;
+    padding: 10px;
+    
+    color: teal;
+    font-family: cursive;
+    
+}
+.about p{
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 0px;
+    margin-left: 5px;
+}
+.product{
+    width: 233.33px;
+    height: auto; 
+    float: left;
+    padding: 40px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: sans-serif;  
+    
+    
+    
+}
+.product img{
+    width: 230px;
+    height: 150px;
+}
+
+.product-list{
+    height: 1000px;
+    
+}
+.product del{
+    color: red;
+}
+.product a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+}
+.product a:hover{
+    
+    background-color: orange;
+}
+.product-list p3 a{
+    float: right;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 5px;
+    padding-top: 15px;
+    margin-right: 20px;
+    background-color: lightgray;
+    margin-top: 15px;
+    color: black
+}
+.gallery{
+    width: 1000px;
+    height:2000px;
+    
+    
+}
+.gallery span{
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 10px;
+    
+}
+.photo{
+
+    border: 1px solid black;
+    
+
+    
+    float: left;
+    
+}
+.photo img{
+    width: 300px;
+    height: 300px;  
+    margin: 15px;
+    margin-top: 10px;
+
+
+
+}
+
+.photo p{
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+        
+    
+}
+.contact iframe{
+ 
+    width: 1000px;
+    
+     
+}
+.form{
+  
+margin-left:10px;
+
+    
+    
+}
+.form h2{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.photo img{
+    background-size: 100%;
+    transition: 1s;
+    cursor: zoom-in;
+    
+}
+.photo img:hover{
+    background-size:150%;
+    background-position: center;
+    transform:scale(1.3)
+}
+    
+
+
+    
+    
